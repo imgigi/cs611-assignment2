@@ -1,0 +1,93 @@
+{
+  "model_name": "random_forest",
+  "timestamp": "20251101_171137",
+  "metrics": {
+    "accuracy": 0.8688,
+    "precision": 0.7558746736292428,
+    "recall": 0.8041666666666667,
+    "f1": 0.7792732166890982,
+    "roc_auc": 0.91167993133583
+  },
+  "feature_names": [
+    "Age",
+    "Occupation",
+    "Annual_Income",
+    "Monthly_Inhand_Salary",
+    "Num_Bank_Accounts",
+    "Num_Credit_Card",
+    "Interest_Rate",
+    "Num_of_Loan",
+    "Type_of_Loan",
+    "Delay_from_due_date",
+    "Num_of_Delayed_Payment",
+    "Changed_Credit_Limit",
+    "Num_Credit_Inquiries",
+    "Credit_Mix",
+    "Outstanding_Debt",
+    "Credit_Utilization_Ratio",
+    "Payment_of_Min_Amount",
+    "Total_EMI_per_month",
+    "Amount_invested_monthly",
+    "Payment_Behaviour",
+    "Monthly_Balance",
+    "credit_history_months",
+    "fe_1",
+    "fe_2",
+    "fe_3",
+    "fe_4",
+    "fe_5",
+    "fe_6",
+    "fe_7",
+    "fe_8",
+    "fe_9",
+    "fe_10",
+    "fe_11",
+    "fe_12",
+    "fe_13",
+    "fe_14",
+    "fe_15",
+    "fe_16",
+    "fe_17",
+    "fe_18",
+    "fe_19",
+    "fe_20",
+    "debt_to_income",
+    "emi_to_salary",
+    "num_products",
+    "loan_per_product",
+    "age_group"
+  ],
+  "n_features": 47,
+  "n_samples_train": 10000,
+  "n_samples_test": 2500,
+  "all_models_results": {
+    "logistic_regression": {
+      "accuracy": 0.8548,
+      "precision": 0.7256637168141593,
+      "recall": 0.7972222222222223,
+      "f1": 0.7597617471872932,
+      "roc_auc": 0.9233348938826467
+    },
+    "random_forest": {
+      "accuracy": 0.8688,
+      "precision": 0.7558746736292428,
+      "recall": 0.8041666666666667,
+      "f1": 0.7792732166890982,
+      "roc_auc": 0.91167993133583
+    },
+    "gradient_boosting": {
+      "accuracy": 0.8684,
+      "precision": 0.7617135207496654,
+      "recall": 0.7902777777777777,
+      "f1": 0.7757327880027266,
+      "roc_auc": 0.9239204900124844
+    },
+    "xgboost": {
+      "accuracy": 0.8692,
+      "precision": 0.7902511078286558,
+      "recall": 0.7430555555555556,
+      "f1": 0.7659269863994274,
+      "roc_auc": 0.9253714107365792
+    }
+  }
+}
